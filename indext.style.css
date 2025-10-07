@@ -1,0 +1,67 @@
+.hero{
+    background-color: azure;
+    display: inline-block;
+    grid-template-columns: (6,1fr);
+}
+.grid1{
+    background-color: black;
+width: 150px;
+height: 200px;
+
+}
+.grid2{
+    border-color: blue;
+    width: 150px;
+height: 200px;
+}
+
+.grid3{
+width: 150px;
+height: 200px;
+border-color: #490505c0;
+}
+.grid4{
+    background-color: #ff00002d;
+width: 150px;
+height: 200px;
+}
+.grid5{
+    border-color: darkcyan;
+width: 150px;
+height: 200px;
+}
+.grid6{
+    border-color: teal;
+width: 150px;
+height: 200px;
+}
+.grid7{
+    border-color: tomato;
+width: 150px;
+height: 200px;
+}
+.grid8{
+width: 150px;
+height: 200px;
+border-color: darkblue;
+}
+.grid9{
+width: 150px;
+height: 200px;
+background-color: #fff;
+}
+.grid10{
+    border-color: cornflowerblue;
+width: 150px;
+height: 200px;
+}
+.grid11{
+    background-color: chartreuse;
+width: 150px;
+height: 200px;
+}
+.grid12{
+    background-color: blueviolet;
+width: 150px;
+height: 200px;
+}
