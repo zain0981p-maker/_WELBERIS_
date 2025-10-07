@@ -1,67 +1,80 @@
 .hero{
     background-color: azure;
     display: inline-block;
-    grid-template-columns: (6,1fr);
+    grid-template-columns:repeat(2,1fr);
 }
 .grid1{
     background-color: black;
 width: 150px;
 height: 200px;
+display: inline-block;
 
 }
 .grid2{
+    display: inline-block;
     border-color: blue;
     width: 150px;
 height: 200px;
 }
 
 .grid3{
+    display: inline-block;
 width: 150px;
 height: 200px;
 border-color: #490505c0;
 }
+
 .grid4{
+    display: inline-block;
     background-color: #ff00002d;
 width: 150px;
 height: 200px;
 }
 .grid5{
+    display: inline-block;
     border-color: darkcyan;
 width: 150px;
 height: 200px;
 }
 .grid6{
+    display: inline-block;
     border-color: teal;
 width: 150px;
 height: 200px;
 }
 .grid7{
+    display: inline-block;
     border-color: tomato;
 width: 150px;
 height: 200px;
 }
 .grid8{
+    display: inline-block;
 width: 150px;
 height: 200px;
 border-color: darkblue;
 }
-.grid9{
+.grid9{display: inline-block;
 width: 150px;
 height: 200px;
 background-color: #fff;
 }
-.grid10{
+.grid10{display: inline-block;
     border-color: cornflowerblue;
 width: 150px;
 height: 200px;
 }
-.grid11{
+.grid11{display: inline-block;
     background-color: chartreuse;
 width: 150px;
 height: 200px;
 }
-.grid12{
+.grid12{display: inline-block;
     background-color: blueviolet;
 width: 150px;
 height: 200px;
+}
+
+@media(min-width:768px){
+    
 }
